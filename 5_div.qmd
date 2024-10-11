@@ -8,7 +8,11 @@ Data sets used by AI systems (both for training and operation) may suffer from t
 
 | **Question**        | **Considerations**                     |
 |----------------------|---------------------------------------|
-| 
+| Describe how the demographics of the relevant target group subject to the AI processing or training have been defined, i.e. how does a representative dataset looks like.| To avoid bias it is paramount to have an understanding how a  representative dataset for the use case looks like.| 
+| Describe the results of the demographic features of the dataset before and after the generation/anonymization been done?| It is important that the datasets after processing of any kind, including attempts to preserve privacy, are not altered in a way that promotes unfair bias.|
+| Describe what type of fairness testing has been done on the AI models. Specifically, justify the choice of metrics and how they have been documented.| Has an evaluation been done on whether bias-preserving fairness metrics can be used? See checklist by Wachter et al. [16, p. 42]|
+| Describe the ratio of diversity (e.g. ethnicity, gender) within the project staff?| Diversity is an important factor to avoid bias.|
+| Describe how staff was trained to (educational and awareness initiatives) to be more aware of possible bias.| Training is a crucial factor to raise awareness of ethical design to avoid bias.| 
 
 ## 5.2	Accessibility and universal design
 
@@ -16,7 +20,7 @@ Particularly in business-to-consumer domains, systems should be user-centric and
 
 | **Question**        | **Considerations**                     |
 |----------------------|---------------------------------------|
-| 
+| Describe how your AI model might impact potential end-users from a usability and accessibility perspective. Justify your design decisions.| Since this framework is mainly concerned with research use cases, it is evident that much of this rubric applies only to product development. However, it is still a necessary exercise to consider the impact on end-users. This can be as “little” as refraining from color schemes that are difficult for end-user with color blindness.| 
 
 ## 5.3	Stakeholder participation
 
@@ -24,4 +28,4 @@ In order to develop AI systems that are trustworthy, it is advisable to consult 
 
 | **Question**        | **Considerations**                     |
 |----------------------|---------------------------------------|
-| 
+| Describe how stakeholders have been involved in the development of the AI model.  Justify your decisions.| You may want to consider stakeholder mapping, or stakeholder consultation, or stakeholder design participation via co-creation approaches.|
