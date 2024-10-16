@@ -25,7 +25,6 @@ format:
     documentclass: scrreport
     mainfont: "Arial"
     sansfont: "Arial"
-    include-before-body: "main.tex"
     include-in-header: 
       text: |
         \usepackage{scrlayer-scrpage}
