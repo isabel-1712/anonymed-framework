@@ -1,5 +1,5 @@
 ---
-title: "Introduction to ANONYMED Framework"
+title: "Introduction to the ANONY-MED Framework"
 author: ""
 date: ""
 output:
@@ -9,51 +9,64 @@ output:
     toc: true
 ---
 
-# Introduction
+## Overview
 
-This framework provides guidance for developing and auditing the models within the ANONY-MED toolbox. The framework thus accompanies the development of models within the ANONY-MED project. 
-The overall objective of the ANONY-MED project is the creation of a methodological toolbox for privacy-preserving healthcare AI model development , for use with medical data. Specifically, the toolbox provides two methods: 1) anonymization of raw data through privacy-preserving data synthesis with generative AI methods, and 2) anonymization of result data after data protection-compliant data analysis, through homomorphic encryption (HE). While data generated with 1) is particularly suitable for training AI models for diagnostics, the use of HE is recommended if anonymization of the data would impair the accuracy of the analyses. Both types of anonymization can be evaluated quantitatively in terms of their utility: On the basis of the precision of the predictions of the resulting AI models and the statistical analyses. At the same time, privacy metrics can be used to quantify the degree of anonymization.
+This website-version of the framework provides easy-to-click-through guidance for developing and auditing the models within the ANONY-MED toolbox. The framework thus accompanies the development of models within the ANONY-MED project. 
 
-In this framework, we would like to provide the toolbox users with programmatic guidance that extends beyond simple utility measures. The framework will enable users to identify and to tackle ethical considerations when developing AI models using the toolbox. The ANONY-MED project proposes three different use cases: for stroke, cardiology, and radiology. On one hand, this framework will serve as a resource for the developers of each of the use cases within the project to test the framework’s usefulness and relevance, and for the ethics team to audit the project results. At a later stage, based on the feedback and project results, the framework will be adapted and updated, and will be provided publicly with the toolbox as a resource for end users.
+The overall objective of the ANONY-MED project is the creation of a methodological toolbox for privacy-preserving healthcare AI model development that uses medical data. Specifically, the toolbox provides two methods:
 
-The framework considers general ethical challenges when developing medical AI but also considers specific challenges posed by the methods employed in the project, namely generative AI, homomorphic encryption (HE), and differential privacy. We also place a particular emphasis on considerations about privacy when using these methods for anonymization ofhealth data for data-sharing or for training AI models.
+  1) anonymization of **raw data** through privacy-preserving data synthesis with generative AI methods, and 
+  2) anonymization of **result data** after data protection-compliant data analysis, through homomorphic encryption (HE).
+
+While data generated with 1) is particularly suitable for training AI models for diagnostics, the use of HE is recommended if anonymization of the data would impair the accuracy of the analyses. Both types of anonymization can be evaluated quantitatively in terms of their utility: on the basis of the precision of the predictions of the resulting AI models and the statistical analyses. At the same time, privacy metrics can be used to quantify the degree of anonymization.
+
+In this framework, we would like to provide the toolbox users with programmatic guidance that extends beyond simple utility measures. **The framework will enable users to identify and to tackle ethical considerations when developing AI models using the toolbox. The ANONY-MED project proposes three different use cases: for stroke, cardiology, and radiology.** On one hand, this framework will serve as a resource for the developers of each of the use cases within the project to test the framework’s usefulness and relevance, and for the ethics team to audit the project results. At a later stage, based on the feedback and project results, the framework will be adapted and updated, and will be provided publicly with the toolbox as a resource for end users.
+
+The framework considers general ethical challenges when developing medical AI but also considers specific challenges posed by the methods employed in the project, namely **generative AI, homomorphic encryption (HE), and differential privacy.** We also place a particular emphasis on considerations about privacy when using these methods for anonymization ofhealth data for data-sharing or for training AI models.
 
 Given the scope of the ANONY-MED project, the presented framework will focus exclusively on the EU region, with its legislative prerequisites, such as the GDPR. The framework also assumes that the toolbox is used in a research setting. 
 
-# Ethical Framework for the ANONY-MED Toolbox
+## Ethical Framework for the ANONY-MED Toolbox
 
 Our ethical framework structure follows the broad structure of the Ethical guidelines for **Trustworthy AI** of the EU's High-Level Expert Group on Artificial Intelligence (AI HLEG) [1]. These guidelines aim to promote the development and deployment of AI systems that are safe, reliable, and respect fundamental rights and values. The guidelines include seven key principles for trustworthy AI that count as high-level norms and several sub-groups under these heading counting as mid-level norms:
 
-1.	Human agency and oversight
-  1.	  Fundamental rights
+1.	**Human agency and oversight**
+  1.	Fundamental rights
   2.	Human agency
   3.	Human oversight
-2.	Technical robustness and safety
+
+2.	**Technical robustness and safety**
   1.	Resilience to attack and security
   2.	Fallback plan and general safety
   3.	Accuracy
   4.	Reliability and Reproducibility
-3.	Privacy and Data governance
+
+3.	**Privacy and Data governance**
   1.	Privacy and data protection
   2.	Quality and integrity of data
   3.	Access to data
-4.	Transparency
+
+4.	**Transparency**
   1.	Traceability
   2.	Explainability
   3.	Communication
-5.	Diversity, non-discrimination and fairness
+
+5. **Diversity, non-discrimination and fairness**
   1.	Avoidance of unfair bias
   2.	Accessibility and universal design
   3.	Stakeholder participation
-6.	Societal and environmental well-being
+
+6.	**Societal and environmental well-being**
   1.	Sustainable and environmentally friendly
   2.	Social impact
   3.	Society and Democracy
-7.	Accountability
+
+7.	**Accountability**
   1.	Auditability
   2.	Minimisation and reporting of negative impacts
   3.	Trade-offs
   4.	Redress
 
 These guidelines define a structure of high- and mid-level norms. High-level norms are equivalent to high-level principles, for example “Transparency”. These principles are then further defined by mid-level norms, for example “Explainability”. The descriptions of the high- and mid-level norms below are taken verbatim from [1].
+
 For each mid-level norm, we provide ethical guidance in the form of questions. Our framework is not a checklist since it requires free form answers and it requires justifications. The checklist we devised is loosely based on the ALTAI checklist (cite 2).
