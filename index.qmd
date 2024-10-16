@@ -30,38 +30,38 @@ Given the scope of the ANONY-MED project, the presented framework will focus exc
 
 Our ethical framework structure follows the broad structure of the Ethical guidelines for **Trustworthy AI** of the EU's High-Level Expert Group on Artificial Intelligence (AI HLEG) [1]. These guidelines aim to promote the development and deployment of AI systems that are safe, reliable, and respect fundamental rights and values. The guidelines include seven key principles for trustworthy AI that count as high-level norms and several sub-groups under these heading counting as mid-level norms:
 
-1.	**Human agency and oversight**
+1.	**[Human agency and oversight]**(https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#Human%20agency)
   1.	Fundamental rights
   2.	Human agency
   3.	Human oversight
 
-2.	**Technical robustness and safety**
+2.	**[Technical robustness and safety]**(https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#Robustness)
   1.	Resilience to attack and security
   2.	Fallback plan and general safety
   3.	Accuracy
   4.	Reliability and Reproducibility
 
-3.	**Privacy and Data governance**
+3.	**[Privacy and Data governance]**(https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#privacy)
   1.	Privacy and data protection
   2.	Quality and integrity of data
   3.	Access to data
 
-4.	**Transparency**
+4.	**[Transparency]**(https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#Transparency)
   1.	Traceability
   2.	Explainability
   3.	Communication
 
-5. **Diversity, non-discrimination and fairness**
+5. **[Diversity, non-discrimination and fairness]**(https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#Diversity)
   1.	Avoidance of unfair bias
   2.	Accessibility and universal design
   3.	Stakeholder participation
 
-6.	**Societal and environmental well-being**
+6.	**[Societal and environmental well-being]**(https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#well-being)
   1.	Sustainable and environmentally friendly
   2.	Social impact
   3.	Society and Democracy
 
-7.	**Accountability**
+7.	**[Accountability]**(https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#Accountability)
   1.	Auditability
   2.	Minimisation and reporting of negative impacts
   3.	Trade-offs
