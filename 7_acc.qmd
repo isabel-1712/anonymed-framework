@@ -1,4 +1,4 @@
-# 7 Accountability
+# 7 Accountability (ACC)
 
 The requirement of accountability complements the above requirements, and is closely linked to the principle of fairness. It necessitates that mechanisms be put in place to ensure responsibility and accountability for AI systems and their outcomes, both before and after their development, deployment and use.
 
