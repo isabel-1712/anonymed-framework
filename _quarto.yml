@@ -14,6 +14,7 @@ book:
     - 5_div.qmd  
     - 6_sus.qmd  
     - 7_acc.qmd
+    - 8_bib.qmd
 
 
 format:
@@ -29,8 +30,7 @@ format:
       text: |
         \usepackage{scrlayer-scrpage}
         \clearpairofpagestyles
-        \lofoot{VALIDATE}
-        \rofoot{April 24}
+        \lofoot{ANONYMED}
         \usepackage{graphicx}
         \graphicspath{{images/}}
         \usepackage{wrapfig}
