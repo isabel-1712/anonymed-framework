@@ -22,18 +22,18 @@
 
 [11]	S. Longpre et al., ‘The Data Provenance Initiative: A Large Scale Audit of Dataset Licensing & Attribution in AI’. arXiv, Nov. 04, 2023. Accessed: Nov. 29, 2023. [Online]. Available: [http://arxiv.org/abs/2310.16787](http://arxiv.org/abs/2310.16787)
 
-[12]	A. Jacobsen et al., ‘FAIR Principles: Interpretations and Implementation Considerations’, \Data Intell.\, vol. 2, no. 1–2, pp. 10–29, Jan. 2020, doi: 10.1162/dint_r_00024.
+[12]	A. Jacobsen et al., ‘FAIR Principles: Interpretations and Implementation Considerations’, \Data Intell.\, vol. 2, no. 1–2, pp. 10–29, Jan. 2020, [doi: 10.1162/dint_r_00024.](https://direct.mit.edu/dint/article/2/1-2/10/10017/FAIR-Principles-Interpretations-and-Implementation)
 
-[13]	E. Chang and J. Mostafa, ‘The use of SNOMED CT, 2013-2020: a literature review’, \J. Am. Med. Inform. Assoc.\, vol. 28, no. 9, pp. 2017–2026, Sep. 2021, doi: 10.1093/jamia/ocab084.
+[13]	E. Chang and J. Mostafa, ‘The use of SNOMED CT, 2013-2020: a literature review’, \J. Am. Med. Inform. Assoc.\, vol. 28, no. 9, pp. 2017–2026, Sep. 2021, [doi: 10.1093/jamia/ocab084.](https://pubmed.ncbi.nlm.nih.gov/34151978/)
 
-[14]	M. Lehne, J. Sass, A. Essenwanger, J. Schepers, and S. Thun, ‘Why digital medicine depends on interoperability’, \Npj Digit. Med.\, vol. 2, no. 1, Art. no. 1, Aug. 2019, doi: 10.1038/s41746-019-0158-1.
+[14]	M. Lehne, J. Sass, A. Essenwanger, J. Schepers, and S. Thun, ‘Why digital medicine depends on interoperability’, \Npj Digit. Med.\, vol. 2, no. 1, Art. no. 1, Aug. 2019, [doi: 10.1038/s41746-019-0158-1.](https://www.nature.com/articles/s41746-019-0158-1)
 
-[15]	M. Mitchell et al., ‘Model Cards for Model Reporting’, in \Proceedings of the Conference on Fairness, Accountability, and Transparency\, in FAT* ’19. Atlanta, GA, USA: Association for Computing Machinery, Jan. 2019, pp. 220–229. doi: 10.1145/3287560.3287596.
+[15]	M. Mitchell et al., ‘Model Cards for Model Reporting’, in \Proceedings of the Conference on Fairness, Accountability, and Transparency\, in FAT* ’19. Atlanta, GA, USA: Association for Computing Machinery, Jan. 2019, pp. 220–229. [doi: 10.1145/3287560.3287596.](https://dl.acm.org/doi/10.1145/3287560.3287596)
 
-[16]	S. Wachter, B. Mittelstadt, and C. Russell, ‘Bias Preservation in Machine Learning: The Legality of Fairness Metrics Under EU Non-Discrimination Law’, Social Science Research Network, Rochester, NY, SSRN Scholarly Paper ID 3792772, Jan. 2021. doi: 10.2139/ssrn.3792772.
+[16]	S. Wachter, B. Mittelstadt, and C. Russell, ‘Bias Preservation in Machine Learning: The Legality of Fairness Metrics Under EU Non-Discrimination Law’, Social Science Research Network, Rochester, NY, SSRN Scholarly Paper ID 3792772, Jan. 2021. [doi: 10.2139/ssrn.3792772.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3792772)
 
 [17]	Boavizta, ‘Datavizta’, Why Datavizta? Accessed: Nov. 21, 2023. [Online]. Available: [https://dataviz.boavizta.org/](https://dataviz.boavizta.org/)
 
-[18]	E. Sarkar, E. Chielle, G. Gursoy, L. Chen, M. Gerstein, and M. Maniatakos, ‘Privacy-preserving cancer type prediction with homomorphic encryption’, \Sci. Rep.\, vol. 13, no. 1, p. 1661, Jan. 2023, doi: 10.1038/s41598-023-28481-8.
+[18]	E. Sarkar, E. Chielle, G. Gursoy, L. Chen, M. Gerstein, and M. Maniatakos, ‘Privacy-preserving cancer type prediction with homomorphic encryption’, \Sci. Rep.\, vol. 13, no. 1, p. 1661, Jan. 2023, [doi: 10.1038/s41598-023-28481-8.](https://www.nature.com/articles/s41598-023-28481-8)
 
-[19]	J. Whittlestone, R. Nyrup, A. Alexandrova, K. Dihal, and S. Cave, ‘Ethical and societal implications of algorithms, data, and artificial intelligence: a roadmap for research’.
+[19]	J. Whittlestone, R. Nyrup, A. Alexandrova, K. Dihal, and S. Cave, ‘Ethical and societal implications of algorithms, data, and artificial intelligence: a roadmap for research’. Available: [https://www.nuffieldfoundation.org/sites/default/files/files/Ethical-and-Societal-Implications-of-Data-and-AI-report-Nuffield-Foundat.pdf](https://www.nuffieldfoundation.org/sites/default/files/files/Ethical-and-Societal-Implications-of-Data-and-AI-report-Nuffield-Foundat.pdf)
