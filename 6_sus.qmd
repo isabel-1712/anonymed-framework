@@ -6,11 +6,11 @@ In line with the principles of fairness and prevention of harm, the broader soci
 
 AI systems promise to help tackling some of the most pressing societal concerns, yet it must be ensured that this occurs in the most environmentally friendly way possible. The system’s development, deployment and use process, as well as its entire supply chain, should be assessed in this regard, e.g. via a critical examination of the resource usage and energy consumption during training, opting for less harmful choices. Measures securing the environmental friendliness of AI systems’ entire supply chain should be encouraged.
 
-| **Question**        | **Considerations**                     |
-|----------------------|---------------------------------------|
-| Describe how the energy consumption related to the training and testing of the AI models has been estimated, logged, documented, and/or shared.| The Datavizta emissions calculator can be used to estimate the emissions related to the use of different clouds or hardware [17].|
-| Describe what negative impacts your AI development could have on the environment and your measures to reduce the environmental impact of your model development.| You may want to consider an SOP for decreasing unnecessary resource usage; or switching to the the most environmentally friendly type of energy was consumed in the development of the AI model|
-| If you use HE, describe how you have ensured the minimal amount of features to avoid unnecessary heavy computations that might impact sustainability? [18, p. 2]| The combination of machine learning and HE is known to be very resource intensive with increasing numbers of features.|
+| **Question**        | **Considerations**                     | **Notes**              |
+|----------------------|---------------------------------------|------------------------|
+| Describe how the energy consumption related to the training and testing of the AI models has been estimated, logged, documented, and/or shared.| The Datavizta emissions calculator can be used to estimate the emissions related to the use of different clouds or hardware [17].| At Frauenhofer, server consumption is likely logged and a sustainability manager is appointed to discuss ways to reduce environmental impact across the institute.|
+| Describe what negative impacts your AI development could have on the environment and your measures to reduce the environmental impact of your model development.| You may want to consider an SOP for decreasing unnecessary resource usage; or switching to the the most environmentally friendly type of energy was consumed in the development of the AI model| No SOPs for reducing power usage have been made.|
+| If you use HE, describe how you have ensured the minimal amount of features to avoid unnecessary heavy computations that might impact sustainability? [18, p. 2]| The combination of machine learning and HE is known to be very resource intensive with increasing numbers of features.| Regarding differential privacy (AISEC), the generative models are not so resource-demanding compared with training LLMs etc., and surveillance training or re-training with new data is not necessarily projected to increase usage much.|
 
 ## 6.2	Social impact
 
@@ -22,6 +22,6 @@ Ubiquitous exposure to social AI systems in all areas of our lives (be it in edu
 
 Beyond assessing the impact of an AI system’s development, deployment and use on individuals, this impact should also be assessed from a societal perspective, taking into account its effect on institutions, democracy and society at large. The use of AI systems should be given careful consideration particularly in situations relating to the democratic process, including not only political decision-making but also electoral contexts.
 
-| **Question**        | **Considerations**                     |
-|----------------------|---------------------------------------|
-| Describe your assessment whether the AI model has an impact on institutions or the society.| You may want to consider the effect of the model on the healthcare system, e.g. on a governance, economic, and staffing level. You may want to consider the impact of your AI model on human work and work arrangements, in the healthcare setting for example effects on de-skilling.|
+| **Question**        | **Considerations**                     | **Notes**              |
+|----------------------|---------------------------------------|------------------------|
+| Describe your assessment whether the AI model has an impact on institutions or the society.| You may want to consider the effect of the model on the healthcare system, e.g. on a governance, economic, and staffing level. You may want to consider the impact of your AI model on human work and work arrangements, in the healthcare setting for example effects on de-skilling.| The risk of unequal distribution of the toolkit and the models of the toolkit is an outstanding question, i.e., will they be accessible to everybody?|
